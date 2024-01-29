@@ -1,4 +1,6 @@
 FROM alpine:3.16.3
+LABEL org.opencontainers.image.source="https://github.com/boundless-engineering/speedtest2mqtt"
+
 ARG TARGETARCH
 
 COPY entrypoint.sh speedtest2mqtt.sh /opt/
