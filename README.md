@@ -46,13 +46,6 @@ MQTT_USER=user
 MQTT_PASS=changeme
 CRON=0 * * * *
 ```
-## GitHub Packages
-
-Images are automatically published to GitHub Container Registry whenever a new release is published. You can pull the latest image using:
-
-```
-docker pull ghcr.io/moafrancky/speedtest2mqtt:latest
-```
 
 ## Note
 
